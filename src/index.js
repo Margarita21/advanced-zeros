@@ -29,7 +29,7 @@ module.exports = function getZerosCount(number, base) {
 	}
 	if (kol>1)
 	{
-		s=s/kol;
+		s=Math.floor(s/kol);
 	}
 	return s;
 }
